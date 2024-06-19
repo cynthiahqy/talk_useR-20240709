@@ -1,0 +1,80 @@
+---
+title: "`{xmap}`: Unified Tools for Data Harmonisation"
+author:
+  - name: Cynthia A. Huang
+    orcid: 0000-0002-9218-987X
+    email: cynthia.huang@monash.edu
+    affiliation: Department of Econometrics and Business Statistics, Monash Business School
+date: 2024-07-09
+format:
+  presentation-revealjs+letterbox: default
+---
+
+# Introduction
+
+## About Me!
+
+## Goals
+
+The main goals for this talk are:
+
+- how crossmaps encode mappings between classification standards
+- how to specify crossmaps using the `xmap` object class, and validate mappings between statistical classifications
+- how to apply an `xmap` to raw data and produce harmonised data
+
+We will also touch upon:
+
+- how the `xmap` object can also be used to document harmonised data. This includes generating sankey-style diagrams of mappings using ggplot2 extensions.
+- how crossmaps can be used to extract mappings from existing data harmonisation scripts
+
+# Ex-Post Harmonisation and the Crossmap Framework
+
+<!-- pull from numbats talk -->
+
+## Problem/Motivation
+
+## Existing Approach
+
+## Proposed Solution
+
+## More on the conceptual framework -> PREPRINT
+
+# Implementation in R
+
+## Package Overview
+
+## Creating & Verifying a Crossmap
+
+- matrix, graph, edge-list classes
+  - fractional & decimal weights
+- verification (with error messages)
+
+## Applying a Crossmap to Data
+
+- `apply_xmap()`
+
+## Importing and Exporting Crossmaps
+
+- import as tibble then convert
+  - tibble to xmap,
+    - keep extra columns but then drop them?
+- export as tibble..
+  - 
+
+## Multiple Crossmaps & Observations --> Nested Data Frame
+
+- purrr::map()
+
+## Validating existing scripts
+
+- extracting logic
+- checking mapping assumptions
+- useful assertions
+
+## Documenting mappings
+
+- decomposing mappings
+- `autoplot` & `autotable` functionality
+- interactive bipartite
+  - tooltip: long title
+  - later -- bundle one-to-one, collapse/serialise many-to-one, 
