@@ -326,6 +326,29 @@ Helper functions for keeping inside crossmap guardrails:
 :::
 :::
 
+## Future Development
+
+::: {.columns}
+::: {.column width=70%}
+
+- *data provenance documentation*
+    - multi-partite graph visualisation
+    - summary of crossmap properties
+- *extracting mapping logic from existing scripts*
+    - manipulate data input
+    - parse AST into computational graph
+- *advanced workflows and interactive interfaces*
+    - interactive editing of mapping
+    - multiple transformations
+
+:::
+::: {.column width=30%}
+![](images/plots/plot-isiccomb-split-by-income-groups.png)
+
+![](images/screenshots/screenshot_visxprov-ctry-proposed.png)
+:::
+:::
+
 ## Thanks for listening!
 
 :::: columns
@@ -340,7 +363,7 @@ Try the package:
 
 Ask me about related work and applications:
 
-- **_🇦🇹 UseR!, Salzburg (Jul 8-11)_**
+- 🇦🇹 **_UseR!, Salzburg (Jul 8-11)_**
 - 🇺🇸 JSM, Portland (Aug 3-9)
 - 🇺🇸 posit::conf(2024), Seattle (Aug 12-14)
 - 🇨🇦 UBC, Vancouver, (Jul-Nov)
