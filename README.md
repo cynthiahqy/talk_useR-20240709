@@ -17,6 +17,19 @@
 
 Author(s): Cynthia A. Huang
 
+## Objectives
+
+The main goals for this talk are:
+
+- how crossmaps encode mappings between classification standards
+- how to specify crossmaps using the `xmap` object class, and validate mappings between statistical classifications
+- how to apply an `xmap` to raw data and produce harmonised data
+
+We will also touch upon:
+
+- how the `xmap` object can also be used to document harmonised data. This includes generating sankey-style diagrams of mappings using ggplot2 extensions.
+- how crossmaps can be used to extract mappings from existing data harmonisation scripts
+
 ## Presentation structure
 
 <!-- TODO: add outline -->
